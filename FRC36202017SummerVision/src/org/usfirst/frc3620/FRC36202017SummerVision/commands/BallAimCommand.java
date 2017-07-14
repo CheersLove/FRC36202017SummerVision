@@ -63,7 +63,7 @@ public class BallAimCommand extends Command {
     	}
     	
     	System.out.println(ballCenter);
-
+//WIP
 		double speedScalar = ((ballCenter-(Center-Deadband))/(Center-Deadband));
 		double inverseScalar = (-1*speedScalar);
 		
